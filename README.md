@@ -38,7 +38,7 @@ Understanding whether customers return for repeat purchases is critical for any 
 
 - **Cohort retention confirms the pattern**: Cohort analysis showed a sharp drop in active customers after the first month across all cohorts, reinforcing the RFM findings and indicating that customer retention is a major challenge.
 
-- **Strong revenue growth with a seasonal spike**: Monthly revenue grew from near-zero in late 2016 to a steady ~$650K/month by late 2017, before a sharp spike in November 2017 (~$1M), consistent with the Black Friday/holiday shopping season. Growth plateaued around $850K-950K/month through mid-2018.
+- **Strong revenue growth with a seasonal spike**: Monthly revenue grew from near-zero in late 2016 to a steady $650K/month by late 2017, before a sharp spike in November 2017 ($1M), consistent with the Thanksgiving/holiday shopping season. Growth plateaued around $850K-950K/month through mid-2018.
 
 **Overall Insight**: The analysis suggests that the primary business opportunity is improving customer retention and converting high-value one-time buyers into repeat customers, rather than simply increasing spend from existing purchases.
 
