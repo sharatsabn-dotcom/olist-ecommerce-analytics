@@ -38,7 +38,15 @@ Understanding whether customers return for repeat purchases is critical for any 
 
 - **Cohort retention confirms the pattern**: Cohort analysis showed a sharp drop in active customers after the first month across all cohorts, reinforcing the RFM findings and indicating that customer retention is a major challenge.
 
+- **Strong revenue growth with a seasonal spike**: Monthly revenue grew from near-zero in late 2016 to a steady ~$650K/month by late 2017, before a sharp spike in November 2017 (~$1M), consistent with the Black Friday/holiday shopping season. Growth plateaued around $850K-950K/month through mid-2018.
+
 **Overall Insight**: The analysis suggests that the primary business opportunity is improving customer retention and converting high-value one-time buyers into repeat customers, rather than simply increasing spend from existing purchases.
+
+## Visualizations
+
+- `revenue_trend.png` — Monthly revenue from Sept 2016 to Aug 2018, showing overall growth and a seasonal spike
+- `customer_segments.png` — Customer segments by recency vs. monetary value
+- `customer_segments_frequency.png` — Customer segments by recency vs. purchase frequency
 
 ## Business Recommendations
 
@@ -68,6 +76,7 @@ pip install pandas sqlalchemy psycopg2-binary python-dotenv scikit-learn matplot
 olist-ecommerce-analytics/
 ├── main.py                          # ETL pipeline: loads all 7 CSVs into PostgreSQL
 ├── rfm_analysis.py                  # Pulls RFM data, runs KMeans clustering, generates charts
+├── revenue_trend.py                 # Pulls monthly revenue data and generates trend chart
 ├── schema.sql                       # Database schema (CREATE TABLE statements for all 7 tables)
 ├── sql/
 │   ├── 01_total_revenue.sql
@@ -77,8 +86,10 @@ olist-ecommerce-analytics/
 │   ├── 05_cohort_retention.sql
 │   ├── 06_customer_lifetime_value.sql
 │   └── 07_rfm_analysis.sql
+├── revenue_trend.png                # Chart: Monthly revenue trend
 ├── customer_segments.png            # Chart: Recency vs. Monetary segments
 ├── customer_segments_frequency.png  # Chart: Recency vs. Frequency segments
 ├── .gitignore
 └── README.md
+```
 ```
